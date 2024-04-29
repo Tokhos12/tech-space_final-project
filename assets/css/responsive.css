@@ -1,0 +1,35 @@
+@media screen and (max-width: 375px) {
+  .card {
+    border-radius: 0px;
+    margin: 0;
+    padding: 0 0 40px 0;
+  }
+
+  /* styles background top-image section */
+  .card .top-image {
+    border-radius: 0px;
+    width: 100%;
+    height: 171px;
+    background-size: 100% 171px;
+  }
+
+  /* styles for text-content */
+  .card .text-content div {
+    max-width: 311px;
+    min-height: 216px;
+    margin: auto 32px 40px 32px;
+  }
+
+  .card .text-content hr {
+    max-width: 311px;
+    margin: 32px auto 32px auto;
+  }
+
+  .card .text-content .title h1 {
+    font-size: 36px;
+  }
+
+  .attribution {
+    font-size: 12px;
+  }
+}

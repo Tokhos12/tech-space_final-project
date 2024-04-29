@@ -1,0 +1,23 @@
+@font-face {
+  src: url(../fonts/outfit/Outfit-VariableFont_wght.ttf);
+  font-family: Outfit;
+}
+
+@font-face {
+  src: url(../fonts/young-serif/YoungSerif-Regular.ttf);
+  font-family: Young Serif;
+}
+
+:root {
+  --font-family: "Outfit", sans-serif;
+  --second-family: "Young Serif", sans-serif;
+
+  --dark-charcoal: #312e2c;
+  --dark-raspberry: #7a284e;
+  --brandy-red: #854632;
+  --wenge-brown: #5f564d;
+  --eggshell: #f3e5d7;
+  --white-coffee: #e3ddd7;
+  --snow: #fff7fb;
+  --white: #fff;
+}
